@@ -1,0 +1,30 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.member-container {
+	margin: 10px;
+	padding: 20px;
+	border-radius: 3px;
+	border: 1px solid #E0E0E0;
+}
+
+.member-detail {
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid #E0E0E0;
+	display: inline-block;
+	text-align: center;
+	line-height: 25px;
+}
+
+.member-detail:hover {
+	color: rgba(0,0,0,.54);
+	background-color: rgba(215,215,0,0.7);
+	cursor: pointer;
+}
+
+.exitBtn {
+	cursor: pointer;
+}
